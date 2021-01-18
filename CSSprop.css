@@ -65,3 +65,22 @@
     float: left;
     text-align: center;
 }
+#op{
+    width: 10%;
+    height: 30px;
+    background-color:#fcbf49;
+    text-align: center;
+    line-height: 30px;
+    color: #003049;
+    font-family: 'Times New Roman', Times, serif;
+}
+#op2{
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+th, td{
+    border: 1px solid wheat;
+    padding: 5px;
+}
