@@ -8,7 +8,7 @@ Then Create a config JSON file, The config.json file you create should containin
 {
   "consumerKey": "<paste consumer key here>",
   "consumerSecret": "<paste consumer secret here>"
-}
+}.
 TWITTER-PROXY handles the oauth twitter api requests and simplifies browser requests to avoid the need for a dedicated server.
 Start the twitter proxy referencing the config.json file you created earlier. You can now make proxied api requests from http://localhost:7890/1.1/search/tweets.json?q=.
 Then use this url in the Javascript code to access the twitter api and perform Query search.
